@@ -153,7 +153,21 @@ figure figcaption{
 }
 
 /* order and unordered list CSS formatting taken from https://www.w3schools.com/css/css_list.asp */ 
-@media screen and (min-width: 650px){
+
+@media screen and (max-width: 600px){
+.gallery{
+	flex-direction: column;
+	flex-wrap:wrap;
+	margin: auto;
+	justify-content: space-around;
+}
+
+.galleryitem{
+	width:90%;
+}
+}
+
+@media screen and (min-width: 600px){
 .gallery{
 	flex-direction: row;
 	flex-wrap:wrap;
@@ -167,16 +181,4 @@ figure figcaption{
 }
 }
 
-@media screen and (max-width: 768px){
-.gallery{
-	flex-direction: column;
-	flex-wrap:wrap;
-	margin: auto;
-	justify-content: space-around;
-}
-
-.galleryitem{
-	width:90%;
-}
-}
 
