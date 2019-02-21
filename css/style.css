@@ -154,7 +154,7 @@ figure figcaption{
 
 /* order and unordered list CSS formatting taken from https://www.w3schools.com/css/css_list.asp */ 
 
-@media screen and (max-width: 769px){
+@media screen and (max-width: 600px){
 .gallery{
 	flex-direction: column;
 	flex-wrap:wrap;
@@ -167,7 +167,7 @@ figure figcaption{
 }
 }
 
-@media screen and (min-width: 769px){
+@media screen and (min-width: 600px){
 .gallery{
 	flex-direction: row;
 	flex-wrap:wrap;
