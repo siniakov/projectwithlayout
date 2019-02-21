@@ -1,0 +1,182 @@
+.icon::before {
+    display: inline-block;
+    padding: 0 5px;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .circle::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 300; content: "\f111"; font-size: 0.5em;
+  }
+
+  /* all font awesome CSS styling code taken from fontawesome website and modified*/ 
+
+
+body{
+}
+
+p{
+	font-family: 'Noto Sans';
+    font-size: 18px;
+}
+
+h1{
+	font-family: 'Noto Sans';
+    font-size: 35px;
+}
+
+h2{
+	font-family: 'Noto Sans';
+    font-size: 30px;
+}
+
+h3{
+	font-family: 'Noto Sans';
+    font-size: 25px;
+}
+figcaption{
+	font-family: 'Noto Sans';	
+}
+nav li{
+	background-color: #none;
+	border: solid;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 16px;
+	color:black;
+	background-color: white;
+	background-image: url("./assets/images/toiletplatform.jpg")
+}
+
+.current{
+	text-transform: uppercase;
+	color:#EA3457;
+}
+
+
+.skip {
+        position: absolute;
+        top: -1000px;
+        left: -1000px;
+        height: 1px;
+        width: 1px;
+        text-align: left;
+        overflow: hidden;
+    }
+    
+    a.skip:active, 
+    a.skip:focus, 
+    a.skip:hover {
+        left: 0; 
+        top: 0;
+        width: auto; 
+        height: auto; 
+        overflow: visible; 
+    }
+
+/* code for lines referring to .skip from https://www.bignerdranch.com/blog/web-accessibility-skip-navigation-links/ */
+
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1.2em;
+	font-family: 'Noto Sans';
+    font-size: 18px;
+}
+ul li:before {
+	position: absolute;
+	left: 0;
+	font-family: 'Noto Sans';
+    font-size: 18px;
+}
+
+ol {
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1.2em;
+	font-family: 'Noto Sans';
+    font-size: 18px;
+}
+ol li:before {
+	position: relative;
+	left: 0;
+	font-family: 'Noto Sans';
+    font-size: 18px;
+}
+
+.figcaption{
+	font-family: 'Noto Sans';
+    font-size: 16px;
+}
+
+.gallery{
+	display:flex;
+	flex-direction: column;
+	flex-wrap:wrap;
+	margin: auto;
+	justify-content: space-around;
+	min-height: 40%;
+}
+
+.galleryitem{
+	display:flex;
+	width:90%;
+	min-height: 40%;
+	justify-content: center;
+
+
+
+}
+
+figure{
+  width: 100%;
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid #777;
+  padding:8px;
+  box-sizing: border-box;
+}
+figure img{
+  width: 100%;
+}
+figure figcaption{
+  text-align: center;
+  padding: 8px 4px;
+}
+
+/* order and unordered list CSS formatting taken from https://www.w3schools.com/css/css_list.asp */ 
+@media screen and (min-width: 650px){
+.gallery{
+	flex-direction: row;
+	flex-wrap:wrap;
+	margin: auto;
+	justify-content: space-around;
+}
+
+.galleryitem{
+	width:33%;
+	align-content: space-between;
+}
+}
+
+@media screen and (max-width: 650px){
+.gallery{
+	flex-direction: column;
+	flex-wrap:wrap;
+	margin: auto;
+	justify-content: space-around;
+}
+
+.galleryitem{
+	width:90%;
+}
+}
+
