@@ -24,6 +24,7 @@ p {
     font-size: 1em;
     display: inline-block;
     max-width: 80%;
+    padding: 0.5em;
 }
 
 h1{
@@ -58,10 +59,9 @@ nav li{
 	margin: 4px 2px;
 	cursor: pointer;
 	border-radius: 16px;
-	color:black;
+	color:#00E7FF;
 	background-color: white;
-	background-image: url("../assets/images/camperwallpaper.png");
-	/*camper wallpaper image credit: Andrea Lauren // camper fabrics // andrealaurendesign.com; */
+	background-image: url("../assets/images/aluminum.jpg");
 }
 
 .current{
@@ -95,34 +95,35 @@ nav li{
 ul {
 	position: relative;
 	list-style: none;
-	margin-left: 0;
+	margin-left: 1em;
 	padding-left: 1.2em;
 	font-family: 'Noto Sans', sans-serif;
     font-size: 0.8em;
     margin-bottom: 0.5em;
-    max-width: 75%;
+    max-width:60%;
+}
+
+ol{
+	position: relative;
+	list-style: none;
+	margin-left: 1em;
+	padding-left: 1.2em;
+	font-family: 'Noto Sans', sans-serif;
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+    max-width:60%;
 }
 
 ul li:before {
 	position: absolute;
 	left: 0;
+	margin-left:1em;
     margin-bottom: 0.5em;
     padding-top:0.5em;
     font-family: "Font Awesome 5 Free"; 
     font-weight: 300; 
     content: "\f111"; 
     font-size: 0.5em;
-}
-
-ol {
-	position: relative;
-	list-style: none;
-	margin-left: 0;
-	padding-left: 1.2em;
-	font-family: 'Noto Sans', sans-serif;
-    font-size: 0.8em;
-    margin-bottom: 0.5em;
-    max-width:75%;
 }
 
 ol li:before {
@@ -166,8 +167,9 @@ figure{
   box-sizing: border-box;
 }
 figure img{
-  width: 100%;
+	width: 100%;
 }
+
 figure figcaption{
   text-align: center;
   padding: 8px 4px;
@@ -216,4 +218,8 @@ figure figcaption{
 }
 }
 
+.decoratedfooter{
+	background-image: url("../assets/images/camperwallpaper.png");
+	/*camper wallpaper image credit: Andrea Lauren // camper fabrics // andrealaurendesign.com; */
+}
 
