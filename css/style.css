@@ -64,9 +64,31 @@ nav li{
 	background-image: url("../assets/images/aluminum.jpg");
 }
 
+footer li{
+	display: flex;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 16px;
+	color:black;
+	background-color: white;
+	justify-content: space-between;
+}
+
+.decoratedfooter{
+	background-color: white;
+	background-image: url("../assets/images/camperwallpaper.png");
+	/*camper wallpaper image credit: Andrea Lauren // camper fabrics // andrealaurendesign.com; */
+}
+
+
 .current{
 	text-transform: uppercase;
-	color:#EA3457;
+	color:#255728;
 }
 
 
@@ -217,9 +239,3 @@ figure figcaption{
 	align-content: space-between;
 }
 }
-
-.decoratedfooter{
-	background-image: url("../assets/images/camperwallpaper.png");
-	/*camper wallpaper image credit: Andrea Lauren // camper fabrics // andrealaurendesign.com; */
-}
-
