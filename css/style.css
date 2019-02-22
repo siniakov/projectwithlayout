@@ -12,35 +12,35 @@
   }
 
   /* all font awesome CSS styling code taken from fontawesome website and modified*/ 
-  /* note: google fonts used on all pages */;
+  /* note: google fonts used on all pages */
 
 p {
-	font-family: 'Noto Sans', "Arial";
+	font-family: 'Noto Sans', sans-serif;
     font-size: 18px;
     display: inline-block;
 }
 
 h1{
-	font-family: 'Noto Sans';
+	font-family: 'Noto Sans', sans-serif;
     font-size: 2em;
-    margin:2em;
+    margin:1em;
 }
 
 
 h2{
-	font-family: 'Noto Sans';
+	font-family: 'Noto Sans', sans-serif;
     font-size: 1.5em;
     margin:1em;
 }
 
 h3{
-	font-family: 'Noto Sans';
+	font-family: 'Noto Sans', sans-serif;
     font-size: 1.25em;
     margin:1em;
 }
 
 figcaption{
-	font-family: 'Noto Sans';	
+	font-family: 'Noto Sans', sans-serif;	
 }
 nav li{
 	display: flex;
@@ -91,7 +91,7 @@ ul {
 	list-style: none;
 	margin-left: 0;
 	padding-left: 1.2em;
-	font-family: 'Noto Sans';
+	font-family: 'Noto Sans', sans-serif;
     font-size: 0.8em;
     margin-bottom: 0.5em;
     max-width: 80%;
@@ -99,7 +99,7 @@ ul {
 ul li:before {
 	position: absolute;
 	left: 0;
-	font-family: 'Noto Sans';
+	font-family: 'Noto Sans', sans-serif;
     font-size: 18px;
     margin-bottom: 0.5em;
 }
@@ -109,7 +109,7 @@ ol {
 	list-style: none;
 	margin-left: 0;
 	padding-left: 1.2em;
-	font-family: 'Noto Sans';
+	font-family: 'Noto Sans', sans-serif;
     font-size: 0.8em;
     margin-bottom: 0.5em;
     max-width:80%;
@@ -117,12 +117,12 @@ ol {
 ol li:before {
 	position: relative;
 	left: 0;
-	font-family: 'Noto Sans';
+	font-family: 'Noto Sans', sans-serif;
     font-size: 18px;
 }
 
 .figcaption{
-	font-family: 'Noto Sans';
+	font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
 }
 
@@ -140,9 +140,6 @@ ol li:before {
 	width:90%;
 	min-height: 40%;
 	justify-content: center;
-
-
-
 }
 
 figure{
