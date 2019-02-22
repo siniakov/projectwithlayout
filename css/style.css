@@ -12,32 +12,30 @@
   }
 
   /* all font awesome CSS styling code taken from fontawesome website and modified*/ 
+  /* note: google fonts used on all pages */;
 
-
-body{
-}
-
-p{
-	font-family: 'Noto Sans';
+p {
+	font-family: 'Noto Sans', "Arial";
     font-size: 18px;
+    display: inline-block;
 }
 
 h1{
 	font-family: 'Noto Sans';
-    font-size: 35px;
+    font-size: 2em;
     margin:2em;
 }
 
 
 h2{
 	font-family: 'Noto Sans';
-    font-size: 30px;
+    font-size: 1.5em;
     margin:1em;
 }
 
 h3{
 	font-family: 'Noto Sans';
-    font-size: 25px;
+    font-size: 1.25em;
     margin:1em;
 }
 
@@ -45,7 +43,7 @@ figcaption{
 	font-family: 'Noto Sans';	
 }
 nav li{
-	background-color: #none;
+	display: flex;
 	border: solid;
 	padding: 10px 20px;
 	text-align: center;
@@ -56,7 +54,8 @@ nav li{
 	border-radius: 16px;
 	color:black;
 	background-color: white;
-	background-image: url("../assets/images/casters.jpg")
+	background-image: url("../assets/images/camperwallpaper.png");
+	/*camper wallpaper image credit: Andrea Lauren // camper fabrics // andrealaurendesign.com; */
 }
 
 .current{
@@ -93,8 +92,9 @@ ul {
 	margin-left: 0;
 	padding-left: 1.2em;
 	font-family: 'Noto Sans';
-    font-size: 18px;
+    font-size: 0.8em;
     margin-bottom: 0.5em;
+    max-width: 80%;
 }
 ul li:before {
 	position: absolute;
@@ -110,8 +110,9 @@ ol {
 	margin-left: 0;
 	padding-left: 1.2em;
 	font-family: 'Noto Sans';
-    font-size: 18px;
+    font-size: 0.8em;
     margin-bottom: 0.5em;
+    max-width:80%;
 }
 ol li:before {
 	position: relative;
