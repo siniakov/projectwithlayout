@@ -115,6 +115,10 @@ figure figcaption{
   padding: 8px 4px;
 }
 
+.iconimg{
+	max-height: 5%;
+}
+
 /* order and unordered list CSS formatting taken from https://www.w3schools.com/css/css_list.asp */ 
 
 @media screen and (max-width: 600px){
