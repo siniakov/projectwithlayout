@@ -269,7 +269,7 @@ p{
     display: inline-block;
     max-width: 80%;
     padding: 0.5em;
-    padding-left: 2em;
+    padding-left: 3em;
 }
 
 
@@ -277,7 +277,7 @@ ul {
 	position: relative;
 	list-style: none;
 	margin-left: 1em;
-	padding-left: 1.2em;
+	padding-left: 3.2em;
 	font-family: 'Noto Sans', sans-serif;
     font-size: 0.8em;
     margin-bottom: 0.5em;
@@ -288,7 +288,7 @@ ol{
 	position: relative;
 	list-style: none;
 	margin-left: 1em;
-	padding-left: 1.2em;
+	padding-left: 3.2em;
 	font-family: 'Noto Sans', sans-serif;
     font-size: 0.8em;
     margin-bottom: 0.5em;
@@ -370,17 +370,17 @@ p{
     display: inline-block;
     max-width: 80%;
     padding: 0.5em;
-    padding-left: 2em;
+    padding-left: 4em;
 }
 
 ul {
 	position: relative;
 	list-style: none;
 	margin-left: 1em;
-	padding-left: 1.2em;
+	padding-left: 4.2em;
 	font-family: 'Noto Sans', sans-serif;
     font-size: 0.8em;
-    margin-bottom: 0.5em;
+    margin-bottom: .5em;
     max-width:60%;
 }
 
@@ -388,7 +388,7 @@ ol{
 	position: relative;
 	list-style: none;
 	margin-left: 1em;
-	padding-left: 1.2em;
+	padding-left: 4.2em;
 	font-family: 'Noto Sans', sans-serif;
     font-size: 0.8em;
     margin-bottom: 0.5em;
