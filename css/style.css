@@ -239,7 +239,7 @@ ol li:before {
 }
 
 nav li{
-	display: flex;
+	display: inline-flex;
 	border: solid;
 	padding: 10px 20px;
 	text-align: center;
