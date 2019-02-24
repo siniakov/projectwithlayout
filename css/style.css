@@ -1,5 +1,5 @@
 
-.icon::before {
+/*.icon::before {
     display: inline-block;
     padding: 0 5px;
     font-style: normal;
@@ -14,18 +14,9 @@
     content: "\f111"; 
     font-size: 0.5em;
   }
-  */ 
 
-  /* all font awesome CSS styling code taken from fontawesome website and modified*/ 
-  /* note: google fonts used on all pages */
-
-p {
-	font-family: 'Noto Sans', sans-serif;
-    font-size: 1em;
-    display: inline-block;
-    max-width: 80%;
-    padding: 0.5em;
-}
+all font awesome CSS styling code taken from fontawesome website and modified
+note: google fonts used on all pages*/
 
 h1{
 	font-family: 'Noto Sans', sans-serif;
@@ -49,40 +40,11 @@ h3{
 figcaption{
 	font-family: 'Noto Sans', sans-serif;	
 }
-nav li{
-	display: flex;
-	border: solid;
-	padding: 10px 20px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	margin: 4px 2px;
-	cursor: pointer;
-	border-radius: 16px;
-	color:#00E7FF;
-	background-color: white;
-	background-image: url("../assets/images/aluminum.jpg");
-}
-
-footer li{
-	display: flex;
-	border: none;
-	padding: 10px 20px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	margin: 4px 2px;
-	cursor: pointer;
-	border-radius: 16px;
-	color:black;
-	background-color: white;
-	justify-content: space-between;
-}
 
 .decoratedfooter{
 	background-color: white;
 	background-image: url("../assets/images/camperwallpaper.png");
-	/*camper wallpaper image credit: Andrea Lauren // camper fabrics // andrealaurendesign.com; */
+	/*camper wallpaper image credit: Andrea Lauren // camper fabrics // andrealaurendesign.com */
 }
 
 
@@ -114,50 +76,6 @@ footer li{
 
 /* code for lines referring to .skip from https://www.bignerdranch.com/blog/web-accessibility-skip-navigation-links/ */
 
-ul {
-	position: relative;
-	list-style: none;
-	margin-left: 1em;
-	padding-left: 1.2em;
-	font-family: 'Noto Sans', sans-serif;
-    font-size: 0.8em;
-    margin-bottom: 0.5em;
-    max-width:60%;
-}
-
-ol{
-	position: relative;
-	list-style: none;
-	margin-left: 1em;
-	padding-left: 1.2em;
-	font-family: 'Noto Sans', sans-serif;
-    font-size: 0.8em;
-    margin-bottom: 0.5em;
-    max-width:60%;
-}
-
-ul li:before {
-	position: absolute;
-	left: 0;
-	margin-left:1em;
-    margin-bottom: 0.5em;
-    padding-top:0.5em;
-    font-family: "Font Awesome 5 Free"; 
-    font-weight: 300; 
-    content: "\f111"; 
-    font-size: 0.5em;
-}
-
-ol li:before {
-	position: absolute;
-	left: 0;
-    margin-bottom: 0.5em;
-    font-family: "Font Awesome 5 Free"; 
-    font-weight: 300; 
-    content: "\f111"; 
-    font-size: 0.5em;
-
-}
 
 .figcaption{
 	font-family: 'Noto Sans', sans-serif;
@@ -210,6 +128,94 @@ figure figcaption{
 .galleryitem{
 	width:90%;
 }
+
+nav li{
+	display: flex;
+	border: solid;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 16px;
+	color:#00E7FF;
+	background-color: white;
+	background-image: url("../assets/images/aluminum.jpg");
+}
+
+footer li{
+	display: flex;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 16px;
+	color:black;
+	background-color: white;
+	justify-content: space-between;
+}
+
+
+p{
+	font-family: 'Noto Sans', sans-serif;
+    font-size: 1em;
+    display: inline-block;
+    max-width: 90%;
+    padding: 1em;
+}
+
+
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 1em;
+	padding-left: 1.2em;
+	font-family: 'Noto Sans', sans-serif;
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+    max-width:80%;
+}
+
+ol{
+	position: relative;
+	list-style: none;
+	margin-left: 1em;
+	padding-left: 1.2em;
+	font-family: 'Noto Sans', sans-serif;
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+    max-width:80%;
+}
+
+ul li:before {
+	position: absolute;
+	left: 0;
+	margin-left:1em;
+    margin-bottom: 0.5em;
+    padding-top:0.5em;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 300; 
+    content: "\f111"; 
+    font-size: 0.5em;
+}
+
+ol li:before {
+	position: absolute;
+	left: 0;
+    margin-bottom: 0.5em;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 300; 
+    content: "\f111"; 
+    font-size: 0.5em;
+
+}
+
+
+
 }
 
 @media screen and (min-width: 600px) and (max-width: 900px){
@@ -224,6 +230,92 @@ figure figcaption{
 	width:50%;
 	align-content: space-between;
 }
+
+nav li{
+	display: flex;
+	border: solid;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 16px;
+	color:#00E7FF;
+	background-color: white;
+	background-image: url("../assets/images/aluminum.jpg");
+}
+
+footer li{
+	display: flex;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 16px;
+	color:black;
+	background-color: white;
+	justify-content: space-between;
+}
+
+
+p{
+	font-family: 'Noto Sans', sans-serif;
+    font-size: 1em;
+    display: inline-block;
+    max-width: 80%;
+    padding: 0.5em;
+}
+
+
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 1em;
+	padding-left: 1.2em;
+	font-family: 'Noto Sans', sans-serif;
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+    max-width:60%;
+}
+
+ol{
+	position: relative;
+	list-style: none;
+	margin-left: 1em;
+	padding-left: 1.2em;
+	font-family: 'Noto Sans', sans-serif;
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+    max-width:60%;
+}
+
+ul li:before {
+	position: absolute;
+	left: 0;
+	margin-left:1em;
+    margin-bottom: 0.5em;
+    padding-top:0.5em;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 300; 
+    content: "\f111"; 
+    font-size: 0.5em;
+}
+
+ol li:before {
+	position: absolute;
+	left: 0;
+    margin-bottom: 0.5em;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 300; 
+    content: "\f111"; 
+    font-size: 0.5em;
+
+}
+
 }
 
 @media screen and (min-width: 900px){
@@ -238,4 +330,92 @@ figure figcaption{
 	width:33%;
 	align-content: space-between;
 }
+
+nav li{
+	display: flex;
+	border: solid;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 16px;
+	color:#00E7FF;
+	background-color: white;
+	background-image: url("../assets/images/aluminum.jpg");
+}
+
+footer li{
+	display: flex;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 16px;
+	color:black;
+	background-color: white;
+	justify-content: space-between;
+}
+
+
+p{
+	font-family: 'Noto Sans', sans-serif;
+    font-size: 1em;
+    display: inline-block;
+    max-width: 80%;
+    padding: 0.5em;
+}
+
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 1em;
+	padding-left: 1.2em;
+	font-family: 'Noto Sans', sans-serif;
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+    max-width:60%;
+}
+
+ol{
+	position: relative;
+	list-style: none;
+	margin-left: 1em;
+	padding-left: 1.2em;
+	font-family: 'Noto Sans', sans-serif;
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+    max-width:60%;
+}
+
+ul li:before {
+	position: absolute;
+	left: 0;
+	margin-left:1em;
+    margin-bottom: 0.5em;
+    padding-top:0.5em;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 300; 
+    content: "\f111"; 
+    font-size: 0.5em;
+}
+
+ol li:before {
+	position: absolute;
+	left: 0;
+    margin-bottom: 0.5em;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 300; 
+    content: "\f111"; 
+    font-size: 0.5em;
+
+}
+
+
+
+
 }
