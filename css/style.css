@@ -150,7 +150,7 @@ footer li{
 	padding: 10px 20px;
 	text-align: center;
 	text-decoration: none;
-	display: block;
+	display: inline-block;
 	margin: 4px 2px;
 	cursor: pointer;
 	border-radius: 16px;
@@ -166,7 +166,6 @@ p{
     display: inline-block;
     max-width: 90%;
     padding: 1em;
-    padding-left:2em;
 }
 
 
@@ -269,7 +268,6 @@ p{
     display: inline-block;
     max-width: 80%;
     padding: 0.5em;
-    padding-left: 3em;
 }
 
 
@@ -277,7 +275,7 @@ ul {
 	position: relative;
 	list-style: none;
 	margin-left: 1em;
-	padding-left: 3.2em;
+	padding-left: 1.2em;
 	font-family: 'Noto Sans', sans-serif;
     font-size: 0.8em;
     margin-bottom: 0.5em;
@@ -288,7 +286,7 @@ ol{
 	position: relative;
 	list-style: none;
 	margin-left: 1em;
-	padding-left: 3.2em;
+	padding-left: 1.2em;
 	font-family: 'Noto Sans', sans-serif;
     font-size: 0.8em;
     margin-bottom: 0.5em;
@@ -299,6 +297,7 @@ ul li:before {
 	position: absolute;
 	left: 0;
 	margin-left:1em;
+	padding-left: 1.2em;
     margin-bottom: 0.5em;
     padding-top:0.5em;
     font-family: "Font Awesome 5 Free"; 
@@ -311,6 +310,7 @@ ol li:before {
 	position: absolute;
 	left: 0;
     margin-bottom: 0.5em;
+    padding-left: 1.2em;
     font-family: "Font Awesome 5 Free"; 
     font-weight: 300; 
     content: "\f111"; 
@@ -370,17 +370,16 @@ p{
     display: inline-block;
     max-width: 80%;
     padding: 0.5em;
-    padding-left: 4em;
 }
 
 ul {
 	position: relative;
 	list-style: none;
 	margin-left: 1em;
-	padding-left: 4.2em;
+	padding-left: 1.2em;
 	font-family: 'Noto Sans', sans-serif;
     font-size: 0.8em;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
     max-width:60%;
 }
 
@@ -388,7 +387,7 @@ ol{
 	position: relative;
 	list-style: none;
 	margin-left: 1em;
-	padding-left: 4.2em;
+	padding-left: 1.2em;
 	font-family: 'Noto Sans', sans-serif;
     font-size: 0.8em;
     margin-bottom: 0.5em;
