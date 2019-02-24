@@ -116,7 +116,9 @@ figure figcaption{
 }
 
 .iconimg{
-	max-height: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	width:3em;
 }
 
 /* order and unordered list CSS formatting taken from https://www.w3schools.com/css/css_list.asp */ 
